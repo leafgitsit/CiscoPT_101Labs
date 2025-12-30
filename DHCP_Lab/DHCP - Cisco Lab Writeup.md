@@ -1,4 +1,3 @@
-
 # Overview
 **Dynamic Host Configuration Protocol(DHCP)**
 Network service that automatically assigns IP addresses and other config settings like subnet mask, gateway and DNS
@@ -43,8 +42,7 @@ Note: `#` in the code blocks are my own comments and will not appear in network 
 	- PC->Switch = Copper Straight-Through
 
 **Topology**
-<img width="918" height="608" alt="Pasted image 20251229000949" src="https://github.com/user-attachments/assets/e78a62be-10c6-41cd-ad37-523cd8d29485" />
-
+![DHCP](img/dhcpTopology.png)
 
 **Configuring IP Address on Router 0**
 ```cisco
@@ -178,7 +176,7 @@ Switch(config-if)#do show interfaces status
 # Task 3: Confirm DHCP on PC
 
 Enable `DHCP` on `PC0`. Then do the same for `PC1`
-![[Pasted image 20251229002414.png]]
+![Config IP](img/dhcpIP.png)
 
 **Testing Network Connectivity**
 ```cisco
@@ -207,10 +205,10 @@ I recommended looking at the **Troubleshooting stops above**
 # Final Configuration
 
 **Logical Diagram**
-![[Pasted image 20251229011258.png]]
+![DHCP Final Config](img/dhcpFinalConfig.png)
 
 **Physical Diagram**
-![[Pasted image 20251229011310.png]]
+![DHCP Physical](img/dhcpPhysical.png)
 # Common Commands
 `conf t`
 

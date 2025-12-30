@@ -1,7 +1,9 @@
 
 # Overview
 
-
+Application layer protocol used to connect a virtual terminal of another computer.
+A user can log into another computer and access its terminal to run programs, start batch proc., and perform sysadmin tasks remotely.
+On port 23.
 #  Telnet Lab: Configuration
 - Configure IP Address for PC and router
 - Enable `telnet` on router w/ additional settings
@@ -146,7 +148,7 @@ TCB Local Address Foreign Address (state)
 1700D63AA00 192.168.1.2.23 192.168.1.1.1028 ESTABLISHED
 ```
 # Final Config
-![[Pasted image 20251228221143.png]]
+![telnet1](img/telnet1.png)
 
 # Common Commands
 `Router#show interfaces`

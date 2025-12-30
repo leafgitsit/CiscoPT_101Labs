@@ -32,10 +32,10 @@ R0#
 ```
 
 **Server Config Server0
-![[Pasted image 20251228224810.png]]
+![FTP 1](img/ftp1.png)
 
 **Verifying that NTP Service is enabled**
-![[Pasted image 20251228225024.png]]
+![FTP 2](img/ftp2.png)
 
 **Testing Connection**
 ```cisco

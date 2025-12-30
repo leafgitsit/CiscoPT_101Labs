@@ -1,4 +1,3 @@
-
 # Overview
 
 **DNS(Domain Name System)**
@@ -42,7 +41,7 @@ Subnet Mask.....................: 0.0.0.0
 Default Gateway.................: ::0.0.0.0
 ```
 
-![[Pasted image 20251228160806.png]]
+![DNS IP](img/dnsIPConfig1.png)
 
 **Configuring Server 0**
 ```cisco
@@ -62,7 +61,7 @@ DHCPv6 IAID.....................:
 DHCPv6 Client DUID..............: 00-01-00-01-CD-6D-5A-B2-00-02-16-D2-47-26
 DNS Servers.....................: ::0.0.0.0
 ```
-![[Pasted image 20251228161220.png]]
+![DNS IP Config 2](img/dnsIPConfig2.png)
 
 Check connectivity to DNS server with `ping`
 `ping 192.168.1.1`
@@ -91,7 +90,7 @@ Configure the Following:
 
 Remember an `A Record` translates Domain name to IPV4 record
 
-![[Pasted image 20251228164803.png]]
+![DNS Settings](img/dnsConfig.png)
 
 # Task 3: Checking Configuration
 **Checking with ipconfig /all**
