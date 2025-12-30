@@ -103,7 +103,7 @@ Note: `#` in the code blocks are my own comments and will not appear in network 
 # Task 1: Configure Router Hostnames
 Combine 2 Cisco Routers via Crossover cables.
 Note: Modern routers can use straight-throughs but the older standard is a crossover-cable to connect similar networking devices.
-![ssh1](img/ssh1.png)
+![ssh1](../img/ssh1.png)
 **Configuring Router 0**
 
 ```cisco
@@ -317,7 +317,7 @@ Router Discovery is disabled
 ```
 
 # Final Config
-![ssh2](img/ssh2.png)
+![ssh2](../img/ssh2.png)
 
 # Common Commands
 `conf t`

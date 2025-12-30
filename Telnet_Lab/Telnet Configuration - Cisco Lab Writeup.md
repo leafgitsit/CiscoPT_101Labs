@@ -148,7 +148,7 @@ TCB Local Address Foreign Address (state)
 1700D63AA00 192.168.1.2.23 192.168.1.1.1028 ESTABLISHED
 ```
 # Final Config
-![telnet1](img/telnet1.png)
+![telnet1](../img/telnet1.png)
 
 # Common Commands
 `Router#show interfaces`

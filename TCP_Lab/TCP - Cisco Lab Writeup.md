@@ -5,7 +5,7 @@ is a connection-oriented protocol for communications that helps in the exchange 
 - TCP establishes a reliable connection between sender and receiver using the three-way handshake (SYN, SYN-ACK, ACK) and it uses a four-step handshake (FIN, ACK, FIN, ACK) to close connections properly.
 - It ensures error-free, in-order delivery of data packets.
 - It uses acknowledgments (ACKs) to confirm receipt.
-![3way](img/tcp1.png)
+![3way](../img/tcp1.png)
 
 This lab will be different in that we will not be utilizing Cisco Packet Tracer. Now we can configure a telnet session between network devices and view its traffic through the simulation tab. But, we cannot analyze the packet beyond its transmission through the network.
 
@@ -26,7 +26,7 @@ Note: [101Labs-Networking/TCP-Lab6 at main · polucio/101Labs-Networking](https:
 
 # Task 2: Visit Telnet.org
 **Homepage of Telnet.org**
-![tcp2](img/tcp2.png)
+![tcp2](../img/tcp2.png)
 
 This website contains active/inactive telnet servers that we can connect to. We can use our `telnet` command to start a session with some of the servers.  Using `telnet` we can directly connect via domain name and port.
 ```terminal
@@ -65,7 +65,7 @@ login:
 
 In the case where we only have the ip address of the server we can connect via IP address as well
 
-![tcp3](img/tcp3.png)
+![tcp3](../img/tcp3.png)
 
 **Now End the telnet session but keep the terminal open**
 # Task 3: Setting up Wireshark
@@ -86,10 +86,10 @@ In the terminal above, we are identifying our target device for the packet captu
 
 **Now open Wireshark and select `eth0`**
 The Wireshark screen should be blank. Now start the telnet session again and notice that our screen fills up with traffic.
-![tcp4](img/tcp4.png)
+![tcp4](../img/tcp4.png)
 Now all of this traffic is relevant to our request. But notice the `TCP` protocols in particular. Here are the packets we want to analyze
 # Task 4: Analyze Telnet Packets
-![tcp5](img/tcp5.png)
+![tcp5](../img/tcp5.png)
 
 Not going to go to in-depth on how to us Wireshark, because there are innumerable resources that will do much better than myself:
 [Learn Wireshark! Tutorial for BEGINNERS](https://www.youtube.com/watch?v=OU-A2EmVrKQ&list=PLW8bTPfXNGdC5Co0VnBK1yVzAwSSphzpJ)

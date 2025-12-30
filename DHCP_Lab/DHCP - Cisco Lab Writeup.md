@@ -42,7 +42,7 @@ Note: `#` in the code blocks are my own comments and will not appear in network 
 	- PC->Switch = Copper Straight-Through
 
 **Topology**
-![DHCP](img/dhcpTopology.png)
+![DHCP](../img/dhcpTopology.png)
 
 **Configuring IP Address on Router 0**
 ```cisco
@@ -176,7 +176,7 @@ Switch(config-if)#do show interfaces status
 # Task 3: Confirm DHCP on PC
 
 Enable `DHCP` on `PC0`. Then do the same for `PC1`
-![Config IP](img/dhcpIP.png)
+![Config IP](../img/dhcpIP.png)
 
 **Testing Network Connectivity**
 ```cisco
@@ -205,10 +205,10 @@ I recommended looking at the **Troubleshooting stops above**
 # Final Configuration
 
 **Logical Diagram**
-![DHCP Final Config](img/dhcpFinalConfig.png)
+![DHCP Final Config](../img/dhcpFinalConfig.png)
 
 **Physical Diagram**
-![DHCP Physical](img/dhcpPhysical.png)
+![DHCP Physical](../img/dhcpPhysical.png)
 # Common Commands
 `conf t`
 
