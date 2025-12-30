@@ -41,7 +41,7 @@ Subnet Mask.....................: 0.0.0.0
 Default Gateway.................: ::0.0.0.0
 ```
 
-![DNS IP](../img/dnsIPConfig1.png)
+![DNS IP](img/../dnsIPConfig1.png)
 
 **Configuring Server 0**
 ```cisco
