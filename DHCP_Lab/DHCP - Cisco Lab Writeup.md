@@ -43,7 +43,8 @@ Note: `#` in the code blocks are my own comments and will not appear in network 
 	- PC->Switch = Copper Straight-Through
 
 **Topology**
-![[Pasted image 20251229000949.png]]
+<img width="918" height="608" alt="Pasted image 20251229000949" src="https://github.com/user-attachments/assets/e78a62be-10c6-41cd-ad37-523cd8d29485" />
+
 
 **Configuring IP Address on Router 0**
 ```cisco
